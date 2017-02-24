@@ -9,9 +9,17 @@
     <sprite>sprites\spr_Squirrel</sprite>
     <sprite>sprites\spr_Item</sprite>
     <sprite>sprites\spr_Wall</sprite>
+    <sprite>sprites\spr_Switch</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <object>objects\obj_Squirrel</object>
+    <object>objects\obj_Item</object>
+    <object>objects\obj_Wall</object>
+    <object>objects\obj_Switch</object>
+    <object>objects\obj_Controller</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\room_Area1</room>
   </rooms>
