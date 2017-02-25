@@ -50,10 +50,12 @@ speed_y = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>speed_y = topDownMovement_y();
+            <string>image_speed = 0;
+
+speed_y = topDownMovement_y();
 speed_x = topDownMovement_x();
 
-keyboardDirections();
+keyboardDirections(image_angle);
 
 x += speed_x;
 y += speed_y;

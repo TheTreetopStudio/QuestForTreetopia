@@ -1,8 +1,9 @@
+// Argument0 - current angle of object. 
 var w = keyboard_check(ord('W'));
 var a = keyboard_check(ord('A'));
 var s = keyboard_check(ord('S'));
 var d = keyboard_check(ord('D'));
-var angle = 0;
+var angle = argument0;
 
 if(w)
     angle = 0;
