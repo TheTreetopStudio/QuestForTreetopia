@@ -13,6 +13,10 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\topDownMovement_x.gml</script>
+    <script>scripts\topDownMovement_y.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_Squirrel</object>
     <object>objects\obj_Item</object>
