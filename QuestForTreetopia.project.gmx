@@ -12,6 +12,7 @@
     <sprite>sprites\spr_Item</sprite>
     <sprite>sprites\spr_Wall</sprite>
     <sprite>sprites\spr_Switch</sprite>
+    <sprite>sprites\spr_Wall_Switchable</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bac_Desert</background>
