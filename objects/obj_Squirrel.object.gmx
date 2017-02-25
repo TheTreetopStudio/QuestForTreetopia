@@ -53,6 +53,8 @@ speed_y = 0;
             <string>speed_y = topDownMovement_y();
 speed_x = topDownMovement_x();
 
+keyboardDirections();
+
 x += speed_x;
 y += speed_y;
 </string>

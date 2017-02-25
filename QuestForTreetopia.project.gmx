@@ -4,18 +4,23 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_DesertTheme</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_Squirrel</sprite>
     <sprite>sprites\spr_Item</sprite>
     <sprite>sprites\spr_Wall</sprite>
     <sprite>sprites\spr_Switch</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bac_Desert</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\topDownMovement_x.gml</script>
     <script>scripts\topDownMovement_y.gml</script>
+    <script>scripts\keyboardDirections.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_Squirrel</object>
@@ -23,6 +28,7 @@
     <object>objects\obj_Wall</object>
     <object>objects\obj_Switch</object>
     <object>objects\obj_Controller</object>
+    <object>objects\obj_Wall_Switchable</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_Area1</room>
