@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_play_sound(snd_DesertTheme, 1, true);
+            <string>audio_stop_all();
+audio_play_sound(snd_DesertTheme, 1, true);
+global.current_level = 0;
 </string>
           </argument>
         </arguments>

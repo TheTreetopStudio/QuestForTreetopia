@@ -3,5 +3,6 @@ Game developed by The Treetop Studio for Colorado School of Mines game developme
 
 #Sources
 "Out To Get Them"
+"Westward"
 Music by Jay Man
 www.ourmusicbox.com

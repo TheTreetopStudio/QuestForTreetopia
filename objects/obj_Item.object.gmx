@@ -51,9 +51,9 @@ beingMoved = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (keyboard_check(vk_space) and distance_to_object(obj_Squirrel) &lt;= 1) 
+            <string>if (keyboard_check(vk_space) and distance_to_object(obj_Squirrel_TopDown) &lt;= 1) 
 {
-    with(obj_Squirrel) {
+    with(obj_Squirrel_TopDown) {
         // show_debug_message(string(speed_x));
         other.speed_x = speed_x;
         other.speed_y = speed_y;
