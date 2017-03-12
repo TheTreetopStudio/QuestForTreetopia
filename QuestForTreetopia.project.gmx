@@ -8,30 +8,59 @@
     <sound>sound\snd_DesertTheme</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_Squirrel</sprite>
-    <sprite>sprites\spr_Item</sprite>
-    <sprite>sprites\spr_Wall</sprite>
-    <sprite>sprites\spr_Switch</sprite>
-    <sprite>sprites\spr_Wall_Switchable</sprite>
+    <sprites name="TopDown">
+      <sprite>sprites\spr_Squirrel_TopDown</sprite>
+      <sprite>sprites\spr_Wall_Switchable</sprite>
+      <sprite>sprites\spr_Switch</sprite>
+      <sprite>sprites\spr_Wall</sprite>
+      <sprite>sprites\spr_Item</sprite>
+    </sprites>
+    <sprites name="SideScrolling">
+      <sprites name="Character">
+        <sprite>sprites\spr_Squirrel_Stand</sprite>
+        <sprite>sprites\spr_Squirrel_Walk</sprite>
+        <sprite>sprites\spr_Squirrel_Jump</sprite>
+        <sprite>sprites\spr_Squirrel_Swing</sprite>
+        <sprite>sprites\spr_Squirrel_Stab</sprite>
+      </sprites>
+      <sprites name="1-1">
+        <sprite>sprites\spr_Wall_Sand</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bac_Desert</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\topDownMovement_x.gml</script>
     <script>scripts\topDownMovement_y.gml</script>
     <script>scripts\keyboardDirections.gml</script>
+    <script>scripts\scr_Input.gml</script>
+    <script>scripts\scr_Movement.gml</script>
+    <script>scripts\scr_Collisions.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_Squirrel</object>
+    <object>objects\obj_Wall_Switchable</object>
+    <object>objects\obj_Switch</object>
     <object>objects\obj_Item</object>
     <object>objects\obj_Wall</object>
-    <object>objects\obj_Switch</object>
-    <object>objects\obj_Controller</object>
-    <object>objects\obj_Wall_Switchable</object>
+    <objects name="TopDown">
+      <object>objects\obj_Controller_1</object>
+      <object>objects\obj_Squirrel_TopDown</object>
+      <object>objects\object9</object>
+    </objects>
+    <objects name="SideScrolling">
+      <object>objects\obj_Squirrel_SideView</object>
+      <objects name="1-1">
+        <object>objects\obj_Controller_1_1</object>
+        <object>objects\obj_Wall_Sand</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room_Level1</room>
     <room>rooms\room_Area1</room>
   </rooms>
   <help>
