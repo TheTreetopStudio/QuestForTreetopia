@@ -75,17 +75,17 @@
     <instance objName="obj_Wall_Sand" x="5952" y="320" name="inst_0E26F218" locked="0" code="" scaleX="7" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall_Sand" x="6336" y="576" name="inst_C6395A21" locked="0" code="" scaleX="1" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_Enemy_Baby_Snake" x="3040" y="339" name="inst_29599CB6" locked="0" code="path_start(path_Snake_5, speed, path_action_reverse, false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Enemy_Snake" x="3680" y="559" name="inst_994512A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Enemy_Baby_Snake" x="4704" y="595" name="inst_56D4BEB9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Enemy_Baby_Snake" x="5088" y="467" name="inst_E3FBA39F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Enemy_Baby_Snake" x="5472" y="339" name="inst_6F76E452" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Enemy_Baby_Snake" x="5984" y="211" name="inst_74E076AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Enemy_Baby_Snake" x="6112" y="211" name="inst_663D05A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Enemy_Baby_Snake" x="6240" y="211" name="inst_CE99E1CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Enemy_Snake" x="7104" y="560" name="inst_FA599651" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Enemy_Snake" x="9632" y="560" name="inst_A0A3512F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Enemy_Snake" x="9376" y="560" name="inst_34A772C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Enemy_Baby_Snake" x="8288" y="594" name="inst_6603CD0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy_Snake" x="3680" y="559" name="inst_994512A7" locked="0" code="path_start(path_9_SnakeM, speed, path_action_restart, false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy_Baby_Snake" x="4704" y="595" name="inst_56D4BEB9" locked="0" code="path_start(path_Snake_3, speed, path_action_reverse, false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy_Baby_Snake" x="5088" y="467" name="inst_E3FBA39F" locked="0" code="path_start(path_Snake_3, speed, path_action_reverse, false);" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy_Baby_Snake" x="5472" y="339" name="inst_6F76E452" locked="0" code="path_start(path_Snake_3, speed, path_action_reverse, false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy_Baby_Snake" x="5984" y="211" name="inst_74E076AF" locked="0" code="path_start(path_Snake_7_Front, speed, path_action_restart, false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy_Baby_Snake" x="6112" y="211" name="inst_663D05A1" locked="0" code="path_start(path_Snake_7_Middle, speed, path_action_restart, false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy_Baby_Snake" x="6240" y="211" name="inst_CE99E1CB" locked="0" code="path_start(path_Snake_7_Back, speed, path_action_restart, false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy_Snake" x="7328" y="560" name="inst_FA599651" locked="0" code="path_start(path_Snake_9, speed, path_action_restart, false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy_Snake" x="9632" y="560" name="inst_A0A3512F" locked="0" code="path_start(path_Snake_8_Back, speed, path_action_restart, false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy_Snake" x="9376" y="560" name="inst_34A772C2" locked="0" code="path_start(path_Snake_8_Front, speed, path_action_restart, false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Enemy_Baby_Snake" x="8288" y="594" name="inst_6603CD0E" locked="0" code="path_start(path_Snake_3, speed, path_action_reverse, false);&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bck_Desert_Tiles" x="0" y="512" w="128" h="128" xo="128" yo="128" id="10000001" name="inst_E472F565" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

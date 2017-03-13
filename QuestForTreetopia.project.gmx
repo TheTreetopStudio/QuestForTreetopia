@@ -40,8 +40,19 @@
     </backgrounds>
   </backgrounds>
   <paths name="paths">
-    <path>paths\path_Snake_7</path>
-    <path>paths\path_Snake_5</path>
+    <paths name="Snake">
+      <path>paths\path_Snake_7_Front</path>
+      <path>paths\path_9_SnakeM</path>
+      <path>paths\path_Snake_7</path>
+      <path>paths\path_Snake_5</path>
+      <path>paths\path_Snake_3</path>
+      <path>paths\path_Snake_7_Middle</path>
+      <path>paths\path_Snake_9</path>
+      <path>paths\path_Snake_7_Back</path>
+      <path>paths\path_Snake_8_Front</path>
+      <path>paths\path_Snake_8_Back</path>
+      <path>paths\path10</path>
+    </paths>
   </paths>
   <scripts name="scripts">
     <script>scripts\topDownMovement_x.gml</script>
