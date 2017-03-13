@@ -27,7 +27,11 @@
             <kind>1</kind>
             <string>audio_stop_all();
 audio_play_sound(snd_DesertTheme, 1, true);
-global.current_level = 0;
+
+if(global.progress[0,0]) {
+    obj_Squirrel_TopDown.x = obj_Portal_1_1.x + 64;
+    obj_Squirrel_TopDown.y = obj_Portal_1_1.y;
+}
 </string>
           </argument>
         </arguments>

@@ -5,10 +5,24 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>&lt;undefined&gt;</parentName>
+  <parentName>obj_Portal</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>604</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_inherited</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,7 +39,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0.25;
+            <string>level_room = room_Level1_1;
 </string>
           </argument>
         </arguments>
@@ -34,6 +48,20 @@
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
+        <id>604</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_inherited</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
+      <action>
+        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -48,21 +76,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (distance_to_object(obj_Squirrel_TopDown) &lt;= 0)
-{
-    switch(global.current_level) {
-        case 0:
-            room_goto(room_Level1_1);
-            break;
-        case 1:
-            show_message("Goto level 1-2");
-            break;
-        case 2:
-            show_message("Goto next area");
-            break;
-        default:
-            show_message("This should not show up!");
-    }
+            <string>if(global.progress[0,0] == true) {
+    instance_destroy();
 }
 </string>
           </argument>

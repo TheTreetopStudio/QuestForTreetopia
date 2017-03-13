@@ -31,8 +31,11 @@
     </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\bac_Desert</background>
-    <background>background\background1</background>
+    <backgrounds name="Desert">
+      <background>background\bck_Desert</background>
+      <background>background\bck_Desert_Tiles</background>
+      <background>background\bck_Desert_1_1</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -42,16 +45,21 @@
     <script>scripts\scr_Input.gml</script>
     <script>scripts\scr_Movement.gml</script>
     <script>scripts\scr_Collisions.gml</script>
+    <script>scripts\scr_BeatLevel.gml</script>
   </scripts>
   <objects name="objects">
+    <object>objects\obj_Main_Controller</object>
     <object>objects\obj_Wall_Switchable</object>
     <object>objects\obj_Switch</object>
-    <object>objects\obj_Item</object>
     <object>objects\obj_Wall</object>
     <objects name="TopDown">
-      <object>objects\obj_Controller_1</object>
       <object>objects\obj_Squirrel_TopDown</object>
-      <object>objects\obj_Portal_Sand</object>
+      <object>objects\obj_Portal</object>
+      <objects name="Area1">
+        <object>objects\obj_Controller_1</object>
+        <object>objects\obj_Portal_1_1</object>
+        <object>objects\obj_Item</object>
+      </objects>
     </objects>
     <objects name="SideScrolling">
       <object>objects\obj_Squirrel_SideView</object>
@@ -62,6 +70,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room_Start</room>
     <room>rooms\room_Area1</room>
     <room>rooms\room_Level1_1</room>
   </rooms>

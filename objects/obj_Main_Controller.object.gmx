@@ -2,9 +2,9 @@
 <object>
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
-  <visible>-1</visible>
+  <visible>0</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,34 +25,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_stop_all();
-audio_play_sound(snd_Level1_1, 1, true);
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="3" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if(obj_Squirrel_SideView.y - obj_Squirrel_SideView.sprite_height / 2 &gt; room_height) {
-    room_goto(room_Area1);
-    // scr_BeatLevel(1,1);
+            <string>var area_num = 1;
+var level_num = 1;
+
+for(i = 0; i &lt; area_num; i++) {
+    for(j = 0; j &lt; level_num; j++) {
+        global.progress[i, j] = false;
+    }
 }
+
+room_goto(room_Area1);
 </string>
           </argument>
         </arguments>
