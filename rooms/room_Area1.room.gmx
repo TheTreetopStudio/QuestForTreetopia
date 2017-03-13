@@ -52,7 +52,7 @@
   </views>
   <instances>
     <instance objName="obj_Squirrel_TopDown" x="112" y="656" name="inst_C3F03903" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Item" x="512" y="608" name="inst_5A229B0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Item" x="544" y="592" name="inst_5A229B0D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Switch" x="848" y="416" name="inst_11B32EFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Controller_1" x="272" y="64" name="inst_F45288A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall_Switchable" x="768" y="272" name="inst_2FF345FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -94,7 +94,7 @@
     <instance objName="obj_Wall" x="544" y="16" name="inst_A4D87D1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="512" y="16" name="inst_5B8C3DD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Main_Controller" x="0" y="0" name="inst_F385EE0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Portal_1_1" x="528" y="560" name="inst_5723CE52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Portal_1_1" x="492" y="509" name="inst_5723CE52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

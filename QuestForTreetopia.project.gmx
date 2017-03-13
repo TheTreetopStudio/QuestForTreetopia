@@ -27,6 +27,8 @@
       </sprites>
       <sprites name="1-1">
         <sprite>sprites\spr_Wall_Sand</sprite>
+        <sprite>sprites\spr_Enemy_Snake</sprite>
+        <sprite>sprites\spr_Enemy_Baby_Snake</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -37,7 +39,9 @@
       <background>background\bck_Desert_1_1</background>
     </backgrounds>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path_Snake_One</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\topDownMovement_x.gml</script>
     <script>scripts\topDownMovement_y.gml</script>
@@ -66,6 +70,8 @@
       <objects name="1-1">
         <object>objects\obj_Controller_1_1</object>
         <object>objects\obj_Wall_Sand</object>
+        <object>objects\obj_Enemy_Snake</object>
+        <object>objects\obj_Enemy_Baby_Snake</object>
       </objects>
     </objects>
   </objects>
