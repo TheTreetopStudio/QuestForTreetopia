@@ -40,7 +40,8 @@
     </backgrounds>
   </backgrounds>
   <paths name="paths">
-    <path>paths\path_Snake_One</path>
+    <path>paths\path_Snake_7</path>
+    <path>paths\path_Snake_5</path>
   </paths>
   <scripts name="scripts">
     <script>scripts\topDownMovement_x.gml</script>

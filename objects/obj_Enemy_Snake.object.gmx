@@ -49,7 +49,7 @@
           <argument>
             <kind>1</kind>
             <string>//show_debug_message(string(x) + ", " + string(xprevious));
-if (sign(x-xprevious) &lt; 0) {
+if (sign(x-xprevious) &lt;= 0) {
     image_xscale = 1;
     //show_debug_message("Left");
 } else if (sign(x-xprevious) &gt; 0) {

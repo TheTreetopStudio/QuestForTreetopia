@@ -53,6 +53,10 @@ audio_play_sound(snd_Level1_1, 1, true);
     room_goto(room_Area1);
     // scr_BeatLevel(1,1);
 }
+if(obj_Squirrel_SideView.x &gt; room_width) {
+    room_goto(room_Area1);
+    scr_BeatLevel(1,1);
+}
 </string>
           </argument>
         </arguments>
