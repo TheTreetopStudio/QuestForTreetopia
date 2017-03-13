@@ -24,6 +24,7 @@
         <sprite>sprites\spr_Squirrel_Jump</sprite>
         <sprite>sprites\spr_Squirrel_Swing</sprite>
         <sprite>sprites\spr_Squirrel_Stab</sprite>
+        <sprite>sprites\spr_Sword</sprite>
       </sprites>
       <sprites name="1-1">
         <sprite>sprites\spr_Wall_Sand</sprite>
@@ -79,6 +80,7 @@
     </objects>
     <objects name="SideScrolling">
       <object>objects\obj_Squirrel_SideView</object>
+      <object>objects\obj_Sword</object>
       <objects name="1-1">
         <object>objects\obj_Controller_1_1</object>
         <object>objects\obj_Wall_Sand</object>
