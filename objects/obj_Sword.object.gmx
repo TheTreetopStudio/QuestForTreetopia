@@ -58,17 +58,18 @@ y = obj_Squirrel_SideView.y + 41;
 
 with(obj_Squirrel_SideView) {
     if(sprite_index = spr_Squirrel_Swing) {
-        other.image_angle = 0;
+        other.sprite_index = spr_Sword;
         other.attacking = true;
     } else if (sprite_index = spr_Squirrel_Stab) {
         if(image_xscale &lt; 0) {
-            other.image_angle = 90;
+            other.sprite_index = spr_Sword_Side;
+            other.image_xscale = -1;
         } else {
-            other.image_angle = 270;
+            other.sprite_index = spr_Sword_Side;
         }
         other.attacking = true;
     } else {
-        other.image_angle = 0;
+        other.sprite_index = spr_Sword;
         other.attacking = false;
     }
 }

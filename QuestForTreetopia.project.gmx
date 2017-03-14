@@ -25,6 +25,7 @@
         <sprite>sprites\spr_Squirrel_Swing</sprite>
         <sprite>sprites\spr_Squirrel_Stab</sprite>
         <sprite>sprites\spr_Sword</sprite>
+        <sprite>sprites\spr_Sword_Side</sprite>
       </sprites>
       <sprites name="1-1">
         <sprite>sprites\spr_Wall_Sand</sprite>
