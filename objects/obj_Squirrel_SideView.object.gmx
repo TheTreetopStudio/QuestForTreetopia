@@ -26,15 +26,42 @@
           <argument>
             <kind>1</kind>
             <string>///Initialize Variables
-grav = 0.8;
+grav = 1;
 hsp = 0;
 vsp = 0;
-jumpspeed = 14;
+jumpspeed = 18;
 initial_movespeed = 8;
 movespeed = initial_movespeed;
 image_speed = .17;
 
 attacking = false;
+can_attack = true;
+
+attack_cooldown = 20;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>can_attack = true;
+
 </string>
           </argument>
         </arguments>
@@ -125,12 +152,12 @@ if !attacking
           <argument>
             <kind>1</kind>
             <string>///attack animation
-if !attacking
-{
-    sprite_index = spr_Squirrel_Swing
-    image_index = 0
-    attacking = true
-}
+//if !attacking
+//{
+//    sprite_index = spr_Squirrel_Swing
+//    image_index = 0
+//    attacking = true
+//}
 </string>
           </argument>
         </arguments>
@@ -154,11 +181,13 @@ if !attacking
           <argument>
             <kind>1</kind>
             <string>///attack animation
-if !attacking
+if (!attacking and can_attack)
 {
-    sprite_index = spr_Squirrel_Stab
-    image_index = 0
-    attacking = true
+    sprite_index = spr_Squirrel_Stab;
+    image_index = 0;
+    attacking = true;
+    can_attack = false;
+    alarm_set(0, attack_cooldown);
 }
 </string>
           </argument>
@@ -182,8 +211,11 @@ if !attacking
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if attacking
-    attacking = false
+            <string>if (attacking) {
+    attacking = false;
+}
+
+// show_debug_message("Animation end: " + string(sprite_index));
 </string>
           </argument>
         </arguments>

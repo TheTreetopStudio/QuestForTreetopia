@@ -51,15 +51,21 @@ stab_damage = 1;
           <argument>
             <kind>1</kind>
             <string>depth = -10;
-x = obj_Squirrel_SideView.x + (obj_Squirrel_SideView.sprite_width / 2) - (sprite_width / 2) + 3;
-y = obj_Squirrel_SideView.y + 40;
+image_xscale = obj_Squirrel_SideView.image_xscale;
+x = obj_Squirrel_SideView.x + (obj_Squirrel_SideView.sprite_width / 2 - (image_xscale * 3));
+y = obj_Squirrel_SideView.y + 41;
+
 
 with(obj_Squirrel_SideView) {
-    if(key_swing and attacking) {
+    if(sprite_index = spr_Squirrel_Swing) {
         other.image_angle = 0;
         other.attacking = true;
-    } else if (key_stab and attacking) {
-        other.image_angle = 270;
+    } else if (sprite_index = spr_Squirrel_Stab) {
+        if(image_xscale &lt; 0) {
+            other.image_angle = 90;
+        } else {
+            other.image_angle = 270;
+        }
         other.attacking = true;
     } else {
         other.image_angle = 0;
