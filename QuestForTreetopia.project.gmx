@@ -65,9 +65,6 @@
     <script>scripts\scr_Collisions.gml</script>
     <script>scripts\scr_BeatLevel.gml</script>
   </scripts>
-  <shaders name="shaders">
-    <shader type="GLSLES">shaders\shd_Enemy.shader</shader>
-  </shaders>
   <objects name="objects">
     <object>objects\obj_Main_Controller</object>
     <object>objects\obj_Wall_Switchable</object>
