@@ -15,6 +15,7 @@
       <sprite>sprites\spr_Switch</sprite>
       <sprite>sprites\spr_Wall</sprite>
       <sprite>sprites\spr_Item</sprite>
+      <sprite>sprites\spr_Cactus_Portal</sprite>
       <sprite>sprites\spr_Portal_Sand</sprite>
     </sprites>
     <sprites name="SideScrolling">
@@ -31,6 +32,9 @@
         <sprite>sprites\spr_Wall_Sand</sprite>
         <sprite>sprites\spr_Enemy_Snake</sprite>
         <sprite>sprites\spr_Enemy_Baby_Snake</sprite>
+      </sprites>
+      <sprites name="1-2">
+        <sprite>sprites\spr_cactus</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -65,9 +69,6 @@
     <script>scripts\scr_Collisions.gml</script>
     <script>scripts\scr_BeatLevel.gml</script>
   </scripts>
-  <shaders name="shaders">
-    <shader type="GLSLES">shaders\shd_Enemy.shader</shader>
-  </shaders>
   <objects name="objects">
     <object>objects\obj_Main_Controller</object>
     <object>objects\obj_Wall_Switchable</object>
@@ -79,6 +80,7 @@
       <objects name="Area1">
         <object>objects\obj_Controller_1</object>
         <object>objects\obj_Portal_1_1</object>
+        <object>objects\obj_Portal_1_2</object>
         <object>objects\obj_Item</object>
       </objects>
     </objects>
@@ -91,12 +93,16 @@
         <object>objects\obj_Enemy_Snake</object>
         <object>objects\obj_Enemy_Baby_Snake</object>
       </objects>
+      <objects name="1-2">
+        <object>objects\obj_cactus</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_Start</room>
     <room>rooms\room_Area1</room>
     <room>rooms\room_Level1_1</room>
+    <room>rooms\room_Level1_2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
