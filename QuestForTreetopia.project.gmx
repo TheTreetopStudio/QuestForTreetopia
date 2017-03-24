@@ -34,9 +34,11 @@
         <sprite>sprites\spr_Enemy_Baby_Snake</sprite>
       </sprites>
       <sprites name="1-2">
+        <sprite>sprites\spr_Cactus_Spike</sprite>
         <sprite>sprites\spr_cactus</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\sprite19</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Desert">
@@ -44,6 +46,7 @@
       <background>background\bck_Desert_Tiles</background>
       <background>background\bck_Desert_1_1</background>
     </backgrounds>
+    <background>background\bck_Start_Menu</background>
   </backgrounds>
   <paths name="paths">
     <paths name="Snake">
@@ -95,6 +98,7 @@
       </objects>
       <objects name="1-2">
         <object>objects\obj_cactus</object>
+        <object>objects\obj_Cactus_Spike</object>
       </objects>
     </objects>
   </objects>
