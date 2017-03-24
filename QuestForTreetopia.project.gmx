@@ -38,7 +38,9 @@
         <sprite>sprites\spr_cactus</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\sprite19</sprite>
+    <sprite>sprites\spr_startbutton</sprite>
+    <sprite>sprites\spr_instructions</sprite>
+    <sprite>sprites\spr_back_button</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Desert">
@@ -47,6 +49,7 @@
       <background>background\bck_Desert_1_1</background>
     </backgrounds>
     <background>background\bck_Start_Menu</background>
+    <background>background\bck_instructions</background>
   </backgrounds>
   <paths name="paths">
     <paths name="Snake">
@@ -74,6 +77,9 @@
   </scripts>
   <objects name="objects">
     <object>objects\obj_Main_Controller</object>
+    <object>objects\obj_startbutton</object>
+    <object>objects\obj_instructions</object>
+    <object>objects\obj_back_button</object>
     <object>objects\obj_Wall_Switchable</object>
     <object>objects\obj_Switch</object>
     <object>objects\obj_Wall</object>
@@ -103,10 +109,11 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room_Start</room>
+    <room>rooms\room_Menu</room>
     <room>rooms\room_Area1</room>
     <room>rooms\room_Level1_1</room>
     <room>rooms\room_Level1_2</room>
+    <room>rooms\room_Instructions</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

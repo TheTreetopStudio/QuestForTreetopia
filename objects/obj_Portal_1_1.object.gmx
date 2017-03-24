@@ -39,7 +39,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>level_room = room_Level1_2;
+            <string>level_room = room_Level1_1;
 </string>
           </argument>
         </arguments>
