@@ -93,7 +93,6 @@
     <instance objName="obj_Wall" x="576" y="16" name="inst_B866C0AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="544" y="16" name="inst_A4D87D1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall" x="512" y="16" name="inst_5B8C3DD2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Main_Controller" x="0" y="0" name="inst_F385EE0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Portal_1_1" x="492" y="509" name="inst_5723CE52" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Portal_1_2" x="480" y="208" name="inst_8A228DBD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_back_button" x="896" y="704" name="inst_EE923890" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

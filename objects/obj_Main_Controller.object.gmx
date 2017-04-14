@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var area_num = 1;
+            <string>var area_num = 2;
 var level_num = 2;
 
 for(i = 0; i &lt; area_num; i++) {

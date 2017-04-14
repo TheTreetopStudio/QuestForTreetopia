@@ -76,7 +76,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.progress[0,0] == true) {
+            <string>if(global.progress[1,0] == true) {
     instance_destroy();
 }
 </string>
