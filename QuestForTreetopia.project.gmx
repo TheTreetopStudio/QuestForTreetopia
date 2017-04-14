@@ -7,6 +7,8 @@
   <sounds name="sound">
     <sound>sound\snd_DesertTheme</sound>
     <sound>sound\snd_Level1_1</sound>
+    <sound>sound\snd_MainTheme</sound>
+    <sound>sound\snd_Level1_2</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="TopDown">
@@ -85,6 +87,7 @@
     <object>objects\obj_Wall</object>
     <objects name="TopDown">
       <object>objects\obj_Squirrel_TopDown</object>
+      <object>objects\obj_Title_Screen</object>
       <object>objects\obj_Portal</object>
       <objects name="Area1">
         <object>objects\obj_Controller_1</object>
@@ -105,6 +108,7 @@
       <objects name="1-2">
         <object>objects\obj_cactus</object>
         <object>objects\obj_Cactus_Spike</object>
+        <object>objects\obj_Controller_1_2</object>
       </objects>
     </objects>
   </objects>
