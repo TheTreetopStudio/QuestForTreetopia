@@ -11,6 +11,7 @@
     <sound>sound\snd_Level1_2</sound>
     <sound>sound\snd_Level0_1</sound>
     <sound>sound\snd_Level0_2</sound>
+    <sound>sound\snd_PlainsTheme</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="TopDown">
@@ -21,6 +22,7 @@
       <sprite>sprites\spr_Item</sprite>
       <sprite>sprites\spr_Cactus_Portal</sprite>
       <sprite>sprites\spr_Portal_Sand</sprite>
+      <sprite>sprites\spr_Portal_Area1</sprite>
       <sprite>sprites\spr_Portal_Grass</sprite>
     </sprites>
     <sprites name="SideScrolling">
@@ -44,6 +46,11 @@
       </sprites>
       <sprites name="0-1">
         <sprite>sprites\spr_Mouse</sprite>
+      </sprites>
+      <sprites name="0-2">
+        <sprite>sprites\spr_Tree_Up</sprite>
+        <sprite>sprites\spr_Tree_Right</sprite>
+        <sprite>sprites\spr_Tree_Left</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\spr_startbutton</sprite>
@@ -101,7 +108,10 @@
       <object>objects\obj_Title_Screen</object>
       <object>objects\obj_Portal</object>
       <objects name="Area0">
+        <object>objects\obj_Controller_0</object>
         <object>objects\obj_Portal_0_1</object>
+        <object>objects\obj_Portal_0_2</object>
+        <object>objects\obj_Portal_Area1</object>
       </objects>
       <objects name="Area1">
         <object>objects\obj_Controller_1</object>
@@ -130,6 +140,7 @@
       </objects>
       <objects name="0-2">
         <object>objects\obj_Controller_0_2</object>
+        <object>objects\obj_Tree</object>
       </objects>
     </objects>
   </objects>
@@ -141,6 +152,7 @@
     <room>rooms\room_Instructions</room>
     <room>rooms\room_Area0</room>
     <room>rooms\room_Level0_1</room>
+    <room>rooms\room_Level0_2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

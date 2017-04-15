@@ -28,12 +28,12 @@
             <string>audio_stop_all();
 audio_play_sound(snd_DesertTheme, 1, true);
 
-if(global.progress[0,0]) {
+if(global.progress[1,0]) {
     obj_Squirrel_TopDown.x = obj_Portal_1_1.x + 64;
     obj_Squirrel_TopDown.y = obj_Portal_1_1.y;
 }
 
-if(global.progress[0,1]) {
+if(global.progress[1,1]) {
     obj_Item.x = obj_Switch.x;
     obj_Item.y = obj_Switch.y;
     obj_Squirrel_TopDown.x = obj_Portal_1_2.x + 64;

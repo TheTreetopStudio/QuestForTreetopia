@@ -51,7 +51,7 @@ beingMoved = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(global.progress[0,0] == false) {
+            <string>if(global.progress[1,0] == false) {
     instance_destroy();
 }
 
