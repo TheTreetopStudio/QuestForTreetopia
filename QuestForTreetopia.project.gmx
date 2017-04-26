@@ -83,6 +83,7 @@
     </backgrounds>
     <backgrounds name="Forest">
       <background>background\bck_Forest_2_1</background>
+      <background>background\bck_Sky</background>
     </backgrounds>
   </backgrounds>
   <paths name="paths">
