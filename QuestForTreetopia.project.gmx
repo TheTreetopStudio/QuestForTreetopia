@@ -12,6 +12,9 @@
     <sound>sound\snd_Level0_1</sound>
     <sound>sound\snd_Level0_2</sound>
     <sound>sound\snd_PlainsTheme</sound>
+    <sound>sound\snd_ForestTheme</sound>
+    <sound>sound\snd_AscendingTree</sound>
+    <sound>sound\snd_Level2_1</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="TopDown">
