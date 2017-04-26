@@ -55,7 +55,7 @@
     <instance objName="obj_Sword" x="160" y="7264" name="inst_26828C19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall_Sand" x="480" y="7584" name="inst_BF5A75FE" locked="0" code="" scaleX="7.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Controller_2_1" x="288" y="7168" name="inst_335729A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Bear" x="672" y="7552" name="inst_1783C69E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Vine" x="640" y="7552" name="inst_59EE1139" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bck_Plains_Tiles" x="0" y="7552" w="128" h="128" xo="128" yo="0" id="10000844" name="inst_7001E245" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
