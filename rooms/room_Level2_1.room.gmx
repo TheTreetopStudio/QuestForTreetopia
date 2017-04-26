@@ -55,8 +55,18 @@
     <instance objName="obj_Sword" x="160" y="7264" name="inst_26828C19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Wall_Sand" x="480" y="7584" name="inst_BF5A75FE" locked="0" code="" scaleX="7.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Controller_2_1" x="288" y="7168" name="inst_335729A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Bear" x="672" y="7552" name="inst_1783C69E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
-  <tiles/>
+  <tiles>
+    <tile bgName="bck_Plains_Tiles" x="0" y="7552" w="128" h="128" xo="128" yo="0" id="10000844" name="inst_7001E245" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="128" y="7552" w="128" h="128" xo="256" yo="0" id="10000845" name="inst_C757922F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="256" y="7552" w="128" h="128" xo="256" yo="0" id="10000846" name="inst_CDCAC0E6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="384" y="7552" w="128" h="128" xo="256" yo="0" id="10000847" name="inst_9A715FEE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="512" y="7552" w="128" h="128" xo="256" yo="0" id="10000848" name="inst_9B08B014" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="640" y="7552" w="128" h="128" xo="256" yo="0" id="10000849" name="inst_A08309E4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="832" y="7552" w="128" h="128" xo="384" yo="0" id="10000852" name="inst_6D700AB8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="768" y="7552" w="128" h="128" xo="256" yo="0" id="10000853" name="inst_3AD53D98" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+  </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>
