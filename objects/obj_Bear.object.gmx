@@ -26,14 +26,28 @@
           <argument>
             <kind>1</kind>
             <string>hp = 50;
-// speed = 5;
+speed = 5;
 image_speed = 5/60;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="2">
+    <event eventtype="4" ename="obj_Bear_Cage">
+      <action>
+        <libid>1</libid>
+        <id>113</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_reverse_xdir</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+      </action>
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -50,14 +64,7 @@ image_speed = 5/60;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//show_debug_message(string(x) + ", " + string(xprevious));
-if (sign(x-xprevious) &lt;= 0) {
-    image_xscale = 1;
-    //show_debug_message("Left");
-} else if (sign(x-xprevious) &gt; 0) {
-    image_xscale = -1;
-    //show_debug_message("Right");
-}
+            <string>image_xscale = -image_xscale;
 </string>
           </argument>
         </arguments>

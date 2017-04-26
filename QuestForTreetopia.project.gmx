@@ -61,6 +61,7 @@
         <sprite>sprites\spr_Vine_Up</sprite>
         <sprite>sprites\spr_Vine_Right</sprite>
         <sprite>sprites\spr_Vine_Left</sprite>
+        <sprite>sprites\spr_Bear_Cage</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\spr_startbutton</sprite>
@@ -159,6 +160,7 @@
       </objects>
       <objects name="2-1">
         <object>objects\obj_Controller_2_1</object>
+        <object>objects\obj_Bear_Cage</object>
         <object>objects\obj_Bear</object>
         <object>objects\obj_Vine</object>
       </objects>
