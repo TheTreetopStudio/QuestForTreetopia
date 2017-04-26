@@ -81,6 +81,9 @@
       <background>background\bck_Plains_Tiles</background>
       <background>background\bck_Plains_SideScorlling</background>
     </backgrounds>
+    <backgrounds name="Forest">
+      <background>background\bck_Forest_2_1</background>
+    </backgrounds>
   </backgrounds>
   <paths name="paths">
     <paths name="Snake">
