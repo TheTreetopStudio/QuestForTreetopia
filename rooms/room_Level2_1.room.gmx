@@ -51,19 +51,31 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_Squirrel_SideView" x="96" y="7232" name="inst_C6312AC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Sword" x="160" y="7264" name="inst_26828C19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Wall_Sand" x="480" y="7584" name="inst_BF5A75FE" locked="0" code="" scaleX="7.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Squirrel_SideView" x="96" y="7456" name="inst_C6312AC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Sword" x="160" y="7488" name="inst_26828C19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Controller_2_1" x="288" y="7168" name="inst_335729A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Vine" x="640" y="7552" name="inst_59EE1139" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Bear" x="544" y="7232" name="inst_5C280069" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Bear_Cage" x="128" y="7136" name="inst_B4649E57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Bear_Cage" x="1152" y="7168" name="inst_0C836F50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Wall_Sand" x="1568" y="7616" name="inst_FF36B335" locked="0" code="" scaleX="9.5" scaleY="0.75" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Wall_Sand" x="2176" y="7488" name="inst_81DF5AC9" locked="0" code="" scaleX="6" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Bear" x="1536" y="7424" name="inst_5C280069" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Bear_Cage" x="992" y="7360" name="inst_B4649E57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Bear_Cage" x="2112" y="7360" name="inst_0C836F50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall_Sand" x="480" y="7616" name="inst_F2E91552" locked="0" code="" scaleX="7.703125" scaleY="1.015625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall_Sand" x="576" y="7296" name="inst_F7DC40D0" locked="0" code="" scaleX="4.84375" scaleY="0.515625" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall_Sand" x="1536" y="7456" name="inst_AD660281" locked="0" code="" scaleX="7.90000009536743" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Vine" x="576" y="7264" name="inst_E8C3A067" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall_Sand" x="0" y="7200" name="inst_3EA903ED" locked="0" code="" scaleX="2.078125" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall_Sand" x="448" y="7072" name="inst_2665AF71" locked="0" code="" scaleX="2.078125" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall_Sand" x="832" y="6976" name="inst_B85C36D3" locked="0" code="" scaleX="2.078125" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall_Sand" x="448" y="7072" name="inst_1445C1C9" locked="0" code="" scaleX="2.078125" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall_Sand" x="1568" y="6880" name="inst_F75A2F7D" locked="0" code="" scaleX="7.3984375" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Vine" x="1376" y="6848" name="inst_74D0CF75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Vine" x="1856" y="6848" name="inst_017987ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Bear" x="2464" y="7456" name="inst_5AC2EA5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Bear_Cage" x="3008" y="7392" name="inst_6CFE45E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall_Sand" x="2176" y="6976" name="inst_5934B09D" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall_Sand" x="2816" y="6976" name="inst_677E8CD0" locked="0" code="" scaleX="3.9055118560791" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Wall_Sand" x="2592" y="7520" name="inst_34842641" locked="0" code="" scaleX="7.25" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
-    <tile bgName="bck_Forest_2_1" x="2048" y="6912" w="1024" h="768" xo="0" yo="0" id="10000863" name="inst_D7652AA4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bck_Forest_2_1" x="3072" y="6912" w="1024" h="768" xo="0" yo="0" id="10000864" name="inst_FA1B94E9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bck_Forest_2_1" x="4096" y="6912" w="1024" h="768" xo="0" yo="0" id="10000865" name="inst_9309145D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bck_Forest_2_1" x="5120" y="6912" w="1024" h="768" xo="0" yo="0" id="10000866" name="inst_5DDDDB09" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -71,65 +83,70 @@
     <tile bgName="bck_Forest_2_1" x="7168" y="6912" w="1024" h="768" xo="0" yo="0" id="10000868" name="inst_DBCAC6B7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bck_Forest_2_1" x="8192" y="6912" w="1024" h="768" xo="0" yo="0" id="10000869" name="inst_D935C839" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bck_Forest_2_1" x="9216" y="6912" w="1024" h="768" xo="0" yo="0" id="10000870" name="inst_943CE1AA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Forest_2_1" x="0" y="6912" w="1024" h="768" xo="0" yo="0" id="10000876" name="inst_79250DA5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Plains_Tiles" x="0" y="7552" w="128" h="128" xo="128" yo="0" id="10000877" name="inst_A0847FC3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Plains_Tiles" x="128" y="7552" w="128" h="128" xo="256" yo="0" id="10000878" name="inst_D5BE94D3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Plains_Tiles" x="256" y="7552" w="128" h="128" xo="256" yo="0" id="10000879" name="inst_8E6ABD50" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Plains_Tiles" x="384" y="7552" w="128" h="128" xo="256" yo="0" id="10000880" name="inst_7315B5EB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Plains_Tiles" x="512" y="7552" w="128" h="128" xo="256" yo="0" id="10000881" name="inst_B7E9583A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Plains_Tiles" x="640" y="7552" w="128" h="128" xo="256" yo="0" id="10000882" name="inst_B4C572FB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Plains_Tiles" x="768" y="7552" w="128" h="128" xo="256" yo="0" id="10000883" name="inst_E63BD421" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Plains_Tiles" x="832" y="7552" w="128" h="128" xo="384" yo="0" id="10000884" name="inst_DE7D6432" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="1792" y="7552" w="128" h="128" xo="128" yo="128" id="10000885" name="inst_32B07645" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="1792" y="7424" w="128" h="128" xo="128" yo="0" id="10000890" name="inst_11BA899E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="1792" y="7040" w="128" h="128" xo="128" yo="256" id="10000891" name="inst_FB12490E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="1792" y="6912" w="128" h="128" xo="128" yo="128" id="10000892" name="inst_DFCB20DD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="1792" y="6784" w="128" h="128" xo="128" yo="128" id="10000893" name="inst_E4C8E168" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="1792" y="6656" w="128" h="128" xo="128" yo="128" id="10000894" name="inst_1988A153" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="1920" y="6656" w="128" h="128" xo="256" yo="128" id="10000895" name="inst_C00F231C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2048" y="6656" w="128" h="128" xo="256" yo="128" id="10000896" name="inst_AD2E01D3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2176" y="6656" w="128" h="128" xo="256" yo="128" id="10000897" name="inst_E4AB8F1B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2304" y="6656" w="128" h="128" xo="256" yo="128" id="10000898" name="inst_E14779F9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="1920" y="6784" w="128" h="128" xo="256" yo="128" id="10000899" name="inst_3EC681FA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2048" y="6784" w="128" h="128" xo="256" yo="128" id="10000900" name="inst_ED003C6A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2176" y="6784" w="128" h="128" xo="256" yo="128" id="10000901" name="inst_8079F270" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2304" y="6784" w="128" h="128" xo="256" yo="128" id="10000902" name="inst_304E1F8E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="1920" y="6912" w="128" h="128" xo="256" yo="128" id="10000903" name="inst_69646A7C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2048" y="6912" w="128" h="128" xo="256" yo="128" id="10000904" name="inst_B291596C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2176" y="6912" w="128" h="128" xo="256" yo="128" id="10000905" name="inst_83EDD04B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2304" y="6912" w="128" h="128" xo="256" yo="128" id="10000906" name="inst_08CE2076" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="1920" y="7040" w="128" h="128" xo="256" yo="128" id="10000907" name="inst_F0CB32EB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2048" y="7040" w="128" h="128" xo="256" yo="128" id="10000908" name="inst_D6291A49" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2176" y="7040" w="128" h="128" xo="256" yo="128" id="10000909" name="inst_28B2E5BA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2304" y="7040" w="128" h="128" xo="256" yo="128" id="10000910" name="inst_AC0FC9FF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="1792" y="7168" w="128" h="128" xo="256" yo="128" id="10000911" name="inst_C24EAAF6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="1792" y="7296" w="128" h="128" xo="256" yo="128" id="10000912" name="inst_D6B87B2B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="1920" y="7168" w="128" h="128" xo="256" yo="128" id="10000913" name="inst_1112F429" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2048" y="7168" w="128" h="128" xo="256" yo="128" id="10000914" name="inst_59260D18" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2176" y="7168" w="128" h="128" xo="256" yo="128" id="10000915" name="inst_699BCB04" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2304" y="7168" w="128" h="128" xo="256" yo="128" id="10000916" name="inst_80CDE9FD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2048" y="7296" w="128" h="128" xo="256" yo="128" id="10000918" name="inst_323B0192" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2176" y="7296" w="128" h="128" xo="256" yo="128" id="10000919" name="inst_5128451D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2304" y="7296" w="128" h="128" xo="256" yo="128" id="10000920" name="inst_8382A887" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="1920" y="7424" w="128" h="128" xo="256" yo="0" id="10000921" name="inst_00FABC89" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2048" y="7424" w="128" h="128" xo="256" yo="0" id="10000922" name="inst_8B5121FB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2176" y="7424" w="128" h="128" xo="256" yo="0" id="10000923" name="inst_714A8216" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2304" y="7424" w="128" h="128" xo="256" yo="0" id="10000924" name="inst_F5B6B40D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2432" y="7424" w="128" h="128" xo="384" yo="0" id="10000925" name="inst_E07C8A93" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2432" y="7552" w="128" h="128" xo="384" yo="128" id="10000926" name="inst_B70C693A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="1920" y="7552" w="128" h="128" xo="256" yo="128" id="10000927" name="inst_B7F58CD6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2048" y="7552" w="128" h="128" xo="256" yo="128" id="10000928" name="inst_FB8E7E01" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2176" y="7552" w="128" h="128" xo="256" yo="128" id="10000929" name="inst_F29B30BD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2304" y="7552" w="128" h="128" xo="256" yo="128" id="10000930" name="inst_477E3CC8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2432" y="7040" w="128" h="128" xo="384" yo="256" id="10000931" name="inst_ACCA1B7E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2432" y="7296" w="128" h="128" xo="256" yo="128" id="10000934" name="inst_DF70108B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2432" y="7168" w="128" h="128" xo="256" yo="128" id="10000935" name="inst_92A13DDE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2432" y="6912" w="128" h="128" xo="384" yo="128" id="10000936" name="inst_049CDE61" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2432" y="6784" w="128" h="128" xo="384" yo="128" id="10000937" name="inst_E5287743" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2432" y="6656" w="128" h="128" xo="384" yo="128" id="10000938" name="inst_9F437DEF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="1632" y="6880" w="128" h="128" xo="128" yo="384" id="10000939" name="inst_5FC54391" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2112" y="7232" w="128" h="128" xo="256" yo="384" id="10000940" name="inst_BED04EB3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bck_Tree_Tiles" x="2240" y="7232" w="128" h="128" xo="384" yo="384" id="10000941" name="inst_C45C8638" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Forest_2_1" x="1024" y="6912" w="1024" h="768" xo="0" yo="0" id="10000984" name="inst_D6B85869" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="1024" y="7424" w="128" h="128" xo="128" yo="384" id="10000986" name="inst_278C5200" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="1152" y="7424" w="128" h="128" xo="256" yo="384" id="10000988" name="inst_B22B807F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="1280" y="7424" w="128" h="128" xo="256" yo="384" id="10000989" name="inst_24819A8D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="1408" y="7424" w="128" h="128" xo="256" yo="384" id="10000990" name="inst_137C9EB3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="1536" y="7424" w="128" h="128" xo="256" yo="384" id="10000991" name="inst_DAAA63C8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="1664" y="7424" w="128" h="128" xo="256" yo="384" id="10000992" name="inst_E76CBBD0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="1792" y="7424" w="128" h="128" xo="256" yo="384" id="10000993" name="inst_EC85CEAF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="1920" y="7424" w="128" h="128" xo="384" yo="384" id="10000994" name="inst_F98DCA64" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Forest_2_1" x="0" y="6912" w="1024" h="768" xo="0" yo="0" id="10001008" name="inst_03D0C718" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="0" y="7552" w="128" h="128" xo="128" yo="0" id="10001009" name="inst_1D992EC7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="128" y="7552" w="128" h="128" xo="256" yo="0" id="10001010" name="inst_07D24592" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="256" y="7552" w="128" h="128" xo="256" yo="0" id="10001011" name="inst_3009F3FD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="384" y="7552" w="128" h="128" xo="256" yo="0" id="10001012" name="inst_B262E58D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="512" y="7552" w="128" h="128" xo="256" yo="0" id="10001013" name="inst_AE4F7269" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="640" y="7552" w="128" h="128" xo="256" yo="0" id="10001014" name="inst_E44B5DD5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="768" y="7552" w="128" h="128" xo="256" yo="0" id="10001015" name="inst_9AF98EBA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="832" y="7552" w="128" h="128" xo="384" yo="0" id="10001016" name="inst_ABF34BD5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="256" y="7264" w="128" h="128" xo="128" yo="384" id="10001017" name="inst_E747E2BB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="384" y="7264" w="128" h="128" xo="256" yo="384" id="10001018" name="inst_2DAF652D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="512" y="7264" w="128" h="128" xo="256" yo="384" id="10001019" name="inst_AA5341A6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="640" y="7264" w="128" h="128" xo="256" yo="384" id="10001020" name="inst_AF7034CE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="768" y="7264" w="128" h="128" xo="384" yo="384" id="10001022" name="inst_CBC30BD9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="0" y="7168" w="128" h="128" xo="384" yo="384" id="10001023" name="inst_AEF6D337" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="320" y="7040" w="128" h="128" xo="128" yo="384" id="10001024" name="inst_565BF1F2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="448" y="7040" w="128" h="128" xo="384" yo="384" id="10001025" name="inst_36F498F1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="704" y="6944" w="128" h="128" xo="128" yo="384" id="10001027" name="inst_8AAFE0F9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="832" y="6944" w="128" h="128" xo="384" yo="384" id="10001028" name="inst_694399E0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="1088" y="6848" w="128" h="128" xo="128" yo="384" id="10001029" name="inst_3826A7F8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="1216" y="6848" w="128" h="128" xo="256" yo="384" id="10001030" name="inst_3C34EE40" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="1344" y="6848" w="128" h="128" xo="256" yo="384" id="10001031" name="inst_B78C6A99" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="1472" y="6848" w="128" h="128" xo="256" yo="384" id="10001032" name="inst_E6F86F99" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="1600" y="6848" w="128" h="128" xo="256" yo="384" id="10001033" name="inst_911A6D80" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="1728" y="6848" w="128" h="128" xo="256" yo="384" id="10001034" name="inst_C317CADB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="1856" y="6848" w="128" h="128" xo="256" yo="384" id="10001035" name="inst_ADB0546B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Plains_Tiles" x="1920" y="6848" w="128" h="128" xo="384" yo="384" id="10001036" name="inst_8C97580F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2048" y="7552" w="128" h="128" xo="128" yo="128" id="10001037" name="inst_1ED07213" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2048" y="7424" w="128" h="128" xo="128" yo="128" id="10001038" name="inst_D267D9DA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2048" y="7296" w="128" h="128" xo="128" yo="128" id="10001039" name="inst_839E8DAB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2048" y="7168" w="128" h="128" xo="128" yo="128" id="10001040" name="inst_EB5454B0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2048" y="7040" w="128" h="128" xo="128" yo="128" id="10001041" name="inst_E8A4B6D8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2048" y="6912" w="128" h="128" xo="128" yo="0" id="10001044" name="inst_1BDE0840" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2688" y="6912" w="128" h="128" xo="256" yo="0" id="10001050" name="inst_1067F831" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2816" y="6912" w="128" h="128" xo="256" yo="0" id="10001051" name="inst_42145451" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2944" y="6912" w="128" h="128" xo="384" yo="0" id="10001053" name="inst_2AA5C89A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2944" y="7040" w="128" h="128" xo="384" yo="128" id="10001056" name="inst_737D58F2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2944" y="7168" w="128" h="128" xo="384" yo="128" id="10001057" name="inst_943107FE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2944" y="7296" w="128" h="128" xo="384" yo="128" id="10001058" name="inst_F410D55F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2944" y="7424" w="128" h="128" xo="384" yo="128" id="10001059" name="inst_528F5CF7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2944" y="7552" w="128" h="128" xo="384" yo="128" id="10001060" name="inst_E0683F07" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2176" y="7552" w="128" h="128" xo="256" yo="128" id="10001061" name="inst_F72677A5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2304" y="7552" w="128" h="128" xo="256" yo="128" id="10001062" name="inst_72E83A2D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2432" y="7552" w="128" h="128" xo="256" yo="128" id="10001063" name="inst_A9E7E35F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2560" y="7552" w="128" h="128" xo="256" yo="128" id="10001064" name="inst_0B35DA79" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2688" y="7552" w="128" h="128" xo="256" yo="128" id="10001065" name="inst_31F83D53" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2816" y="7552" w="128" h="128" xo="256" yo="128" id="10001066" name="inst_6B991F96" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2176" y="7456" w="128" h="128" xo="256" yo="0" id="10001067" name="inst_CE803BDD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2304" y="7456" w="128" h="128" xo="256" yo="0" id="10001068" name="inst_99E5592C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2432" y="7456" w="128" h="128" xo="256" yo="0" id="10001069" name="inst_E7E0BCC6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2560" y="7456" w="128" h="128" xo="256" yo="0" id="10001070" name="inst_D0813512" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2688" y="7456" w="128" h="128" xo="256" yo="0" id="10001071" name="inst_2197CC7D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2816" y="7456" w="128" h="128" xo="256" yo="0" id="10001072" name="inst_9A5B9000" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2176" y="6912" w="128" h="128" xo="384" yo="0" id="10001073" name="inst_522B41D7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bck_Tree_Tiles" x="2560" y="6912" w="128" h="128" xo="128" yo="0" id="10001074" name="inst_C6784635" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
