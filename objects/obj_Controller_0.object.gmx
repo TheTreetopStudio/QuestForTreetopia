@@ -35,8 +35,8 @@ if(global.progress[0,0]) {
 
 if(global.progress[0,1]) {
 
-    //obj_Squirrel_TopDown.x = obj_Portal_0_2.x + 64;
-    //obj_Squirrel_TopDown.y = obj_Portal_0_2.y;
+    obj_Squirrel_TopDown.x = obj_Portal_0_2.x + 64;
+    obj_Squirrel_TopDown.y = obj_Portal_0_2.y;
 }
 </string>
           </argument>

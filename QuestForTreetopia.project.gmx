@@ -23,6 +23,7 @@
       <sprite>sprites\spr_Cactus_Portal</sprite>
       <sprite>sprites\spr_Portal_Sand</sprite>
       <sprite>sprites\spr_Portal_Area1</sprite>
+      <sprite>sprites\spr_Portal_Area2</sprite>
       <sprite>sprites\spr_Portal_Grass</sprite>
     </sprites>
     <sprites name="SideScrolling">
@@ -117,7 +118,12 @@
         <object>objects\obj_Controller_1</object>
         <object>objects\obj_Portal_1_1</object>
         <object>objects\obj_Portal_1_2</object>
+        <object>objects\obj_Portal_Area2</object>
         <object>objects\obj_Item</object>
+      </objects>
+      <objects name="Area2">
+        <object>objects\obj_Controller_2</object>
+        <object>objects\obj_Portal_2_1</object>
       </objects>
     </objects>
     <objects name="SideScrolling">
@@ -142,6 +148,9 @@
         <object>objects\obj_Controller_0_2</object>
         <object>objects\obj_Tree</object>
       </objects>
+      <objects name="2-1">
+        <object>objects\obj_Controller_2_1</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -153,6 +162,9 @@
     <room>rooms\room_Area0</room>
     <room>rooms\room_Level0_1</room>
     <room>rooms\room_Level0_2</room>
+    <room>rooms\room_Level2_1</room>
+    <room>rooms\room_Area2</room>
+    <room>rooms\room_win</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
