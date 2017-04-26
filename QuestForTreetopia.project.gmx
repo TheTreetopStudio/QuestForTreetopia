@@ -87,6 +87,7 @@
       <background>background\bck_Tree_Tiles</background>
       <background>background\bck_Forest</background>
     </backgrounds>
+    <background>background\bck_Win</background>
   </backgrounds>
   <paths name="paths">
     <paths name="Snake">
@@ -120,6 +121,7 @@
     <object>objects\obj_Wall_Switchable</object>
     <object>objects\obj_Switch</object>
     <object>objects\obj_Wall</object>
+    <object>objects\obj_Controller_Win</object>
     <objects name="TopDown">
       <object>objects\obj_Squirrel_TopDown</object>
       <object>objects\obj_Title_Screen</object>
